@@ -68,4 +68,63 @@ a {
   width: calc(100% / 3 - 20px);
   min-width: 250px;
   margin: 40px 10px 40px 10px;
+  position: relative;
+}
+
+.hearts {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  background-color: white;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tags {
+  position: absolute;
+  bottom: 30px;
+}
+.sconto,
+.sostenibilita {
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+  padding: 3px 7px;
+}
+
+.sconto {
+  background-color: red;
+}
+.sostenibilita {
+  background-color: green;
+}
+
+.info {
+  position: absolute;
+}
+
+.brand,
+.nome {
+  display: block;
+}
+
+.brand,
+.newprice,
+.oldprice {
+  font-size: 10px;
+}
+.nome {
+  font-weight: bolder;
+  font-size: 12px;
+}
+.newprice {
+  color: red;
+  font-weight: bolder;
+}
+.oldprice {
+  text-decoration: line-through;
 }
