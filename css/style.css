@@ -71,6 +71,18 @@ a {
   position: relative;
 }
 
+.second-img {
+  display: none;
+}
+
+.cards:hover > .first-img {
+  display: none;
+}
+
+.cards:hover > .second-img {
+  display: inline-block;
+}
+
 .hearts {
   position: absolute;
   right: 0;
@@ -128,3 +140,5 @@ a {
 .oldprice {
   text-decoration: line-through;
 }
+
+/* FOOTER */
