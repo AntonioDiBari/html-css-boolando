@@ -19,7 +19,6 @@ body {
 }
 /* GENERICS */
 .container {
-  border: 2px dotted red;
   margin: 0 auto;
   width: 75%;
 }
@@ -28,11 +27,12 @@ body {
 
 .header {
   background-color: #ff6900;
-  height: 50px;
+  height: 45px;
   color: white;
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .header > .container {
@@ -63,6 +63,10 @@ body {
 
 .logo {
   width: 100px;
+}
+
+.buttons {
+  font-size: 10px;
 }
 
 /* VETRINA */
@@ -107,6 +111,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hearts:hover {
+  color: red;
 }
 
 .tags {
