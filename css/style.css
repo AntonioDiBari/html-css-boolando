@@ -14,9 +14,12 @@ a {
   color: white;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* GENERICS */
 .container {
-  border: 2px dotted black;
+  border: 2px dotted red;
   margin: 0 auto;
   width: 75%;
 }
@@ -42,11 +45,20 @@ a {
   align-items: center;
 }
 
-.header ul {
+.header ul,
+.foot ul {
   list-style-type: none;
 }
-.header ul li {
+
+.header ul li,
+.foot ul li,
+.ads {
   display: inline;
+  font-size: 9px;
+}
+
+.header ul li {
+  font-weight: bold;
 }
 
 .logo {
@@ -57,6 +69,7 @@ a {
 
 .articoli {
   padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .vetrina {
@@ -142,3 +155,31 @@ a {
 }
 
 /* FOOTER */
+
+.foot {
+  background-color: #1a1a1a;
+  height: 70px;
+  color: white;
+}
+.foot > .container {
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-foot {
+  width: 100%;
+}
+
+h1 {
+  font-size: 12px;
+}
+.social {
+  width: 100%;
+  text-align: center;
+  flex-basis: 150px;
+}
