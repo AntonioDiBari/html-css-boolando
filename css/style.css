@@ -18,7 +18,7 @@ a {
 .container {
   border: 2px dotted black;
   margin: 0 auto;
-  width: 70%;
+  width: 75%;
 }
 
 /* HEADER */
@@ -34,6 +34,9 @@ a {
 
 .header > .container {
   height: 100%;
+}
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,4 +51,21 @@ a {
 
 .logo {
   width: 100px;
+}
+
+/* VETRINA */
+
+.articoli {
+  padding-top: 50px;
+}
+
+.vetrina {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: calc(100% / 3 - 20px);
+  min-width: 250px;
+  margin: 40px 10px 40px 10px;
 }
