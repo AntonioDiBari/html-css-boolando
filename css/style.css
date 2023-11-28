@@ -1,0 +1,51 @@
+/* ## RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* GENERICS */
+.container {
+  border: 2px dotted black;
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #ff6900;
+  height: 50px;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.header > .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  list-style-type: none;
+}
+.header ul li {
+  display: inline;
+}
+
+.logo {
+  width: 100px;
+}
